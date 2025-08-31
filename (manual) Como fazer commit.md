@@ -69,11 +69,14 @@ git remote add origin
 ---
 
 ## **7) Defina a branch e envie**
-Coloque o NOME-DA-BRANCH após o `origin`.
+Coloque o NOME-DA-BRANCH após o `origin`.<br>
 ```bat
 git push -u origin 
 ```
-
+ou, se der algum erro.
+```bat
+git push -u origin --force
+```
 ---
 
 ✅ **Pronto!**
